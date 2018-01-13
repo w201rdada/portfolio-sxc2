@@ -25,11 +25,6 @@ Over 90% of recruiters use LinkedIn to source or vet candidates<sup>[1](#footnot
   * Using correlated skills to deduce skills you also have
 * lorem
 
-<!-- ...or include images directly from the web. Cite your sources! -->
-```{r machine-learning,echo=FALSE,fig.cap='[xkcd: Machine Learning](https://xkcd.com/1838/)',fig.align='center',out.width='50%'}
-knitr::include_graphics('https://imgs.xkcd.com/comics/machine_learning.png')
-```
-
 ## An end.
 
 Using data science, we can figure out the experiences and skills you need to optimize your LinkedIn profile so that recruiters will be able to find you. This will help shorten the average 1.4 years of unemployment you face in your lifetime.
@@ -38,7 +33,8 @@ Using data science, we can figure out the experiences and skills you need to opt
 
 
 <a name="footnote1">1</a>: Bureau of Labor Statistics, "Frequently Asked Questions" https://www.bls.gov/nls/nlsfaqs.htm
-<a name="footnote2">2</a>: : Market Watch, "How Recruiters Screen you on LinkedIn" https://www.marketwatch.com/story/how-recruiters-screen-you-on-linkedin-2014-05-02
+
+<a name="footnote2">2</a>: Market Watch, "How Recruiters Screen you on LinkedIn" https://www.marketwatch.com/story/how-recruiters-screen-you-on-linkedin-2014-05-02
 
 
 
