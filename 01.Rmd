@@ -37,6 +37,7 @@ Using data science, we can figure out the experiences and skills you need to opt
 
 <!--- clearly needs a rework --->
 
+## Footnotes
 
 <a name="footnote1">1</a>: Bureau of Labor Statistics, "Frequently Asked Questions" https://www.bls.gov/nls/nlsfaqs.htm
 
