@@ -6,6 +6,8 @@ LinkedIn profile, machine learning, optimze online presence
 
 ## A beginning.
 
+> Once you can introduce your idea then you need to begin to explain it. The standard convention and our formula in RDADA is to start with a description of a worthwhile problem and one that is facing a particular kind of person or organization. This is the beginning.
+
 An average person in the United States has 5.6 spells of unemployment<sup>[1](#footnote1)</sup> and each bout is roughly 3 months<sup>[1](#footnote1)</sup>. That's a total of a year and four months of unemployment in a life time of dealing with likely financial instability and the stresses that causes. The majority of that time spent is the time consuming end to end job search process including job search, job application, interviews and hopefully an offer weeks or months later. 
 
 This is a equal-parts process problem and data flow/data match problem. 
@@ -15,6 +17,8 @@ This is a equal-parts process problem and data flow/data match problem.
 The data flow and match problem is what we would like to focus on to solve.
 
 ## A middle.
+
+> Once we understand the problem and the urgency behind it, it is then time to describe the solution. Here is where you can unleash your data science imagination. Suggest an analytics pipeline that can turn noise into signal, information into knowledge, or raw data into a product or service. Be ambitious and do not be afraid of what you have not yet learned. It is enough to name methods and describe what they promise to accomplish. You do not need to explain how they work. This is the middle and should be the longest part of your composition.
 
 Over 90% of recruiters use LinkedIn to source or vet candidates<sup>[1](#footnote2)</sup>. LinkedIn stores massive amounts of semantically rich online professional profiles and a recruiter can quickly find a list of individuals in a given area. However, it's much harder for a recruiter to narrow down that list to professionals who would be the top matches for their open position. The issue is that candidates list their experiences and skills (if at all) not by what recruiters will search they by.
 
@@ -26,6 +30,8 @@ Over 90% of recruiters use LinkedIn to source or vet candidates<sup>[1](#footnot
 * lorem
 
 ## An end.
+
+> After your best attempt at a solution, the work is not over. All solutions are promises or proposals, and you must make good on these by describing the consequences, intended and unintended, of implementing your solution. Trumpet the accomplishments, even if only as expectations, but also be responsible for addressing the limitations. No solution will be a slam-dunk, and you need to be prepared for exposure to unintended consequences. Be measured in your discussion of outstanding issues and always end on a positive. This is your end.
 
 Using data science, we can figure out the experiences and skills you need to optimize your LinkedIn profile so that recruiters will be able to find you. This will help shorten the average 1.4 years of unemployment you face in your lifetime.
 
