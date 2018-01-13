@@ -1,24 +1,44 @@
-# My first cool idea {#slug-one}
+# Smart-Optimize my LinkedIn and Get Found by Recruiters {#smarter-jobseeking}
 
 #### Keywords {-}
 
-yaba, daba, do
+LinkedIn profile, machine learning, optimze online presence
 
 ## A beginning.
 
-Chartreuse next level beard, gochujang vexillologist letterpress meggings.  Godard in  vero, raw denim asymmetrical small batch shabby chic.  Four loko id  actually, pug sartorial sustainable twee live-edge ea chartreuse typewriter disrupt ut direct trade  accusamus.  Nesciunt hoodie live-edge hell of cred, man braid ex mixtape tumblr odio skateboard 8-bit.  Cold-pressed portland nesciunt schlitz organic, lyft bespoke keffiyeh jianbing migas plaid.  Aute  delectus id  master cleanse migas.  Assumenda enamel pin man braid tumblr, four dollar toast YOLO selfies pitchfork tacos kale chips cronut hot chicken.
+An average person in the United States has 5.6 spells of unemployment<sup>[1](#footnote1)</sup> and each bout is roughly 3 months<sup>[1](#footnote1)</sup>. That's a total of a year and four months of unemployment in a life time of dealing with likely financial instability and the stresses that causes. The majority of that time spent is the time consuming end to end job search process including job search, job application, interviews and hopefully an offer weeks or months later. 
+
+This is a equal-parts process problem and data flow/data match problem. 
+
+<!--- add something about process problem has solutions with internet (e-apply) speeding up paper applications --->
+
+The data flow and match problem is what we would like to focus on to solve.
 
 ## A middle.
 
-Deep v accusamus fingerstache tempor kickstarter, sunt banjo tumeric franzen irure  beard af velit  meditation kogi.  Keffiyeh fam shoreditch voluptate  pork belly.  Trust fund vape fixie, dolor  lomo exercitation cardigan.  Meggings hot chicken chartreuse, health goth 3 wolf moon lumbersexual deep v et celiac art party.  Keffiyeh magna mlkshk drinking vinegar, tbh mollit  thundercats heirloom health goth kale chips kitsch gochujang chambray aute  +1.  Heirloom ugh chicharrones franzen locavore swag.  Hexagon man braid lomo, gentrify elit shoreditch flexitarian single-origin coffee gochujang kitsch nihil yuccie mlkshk.
+Over 90% of recruiters use LinkedIn to source or vet candidates<sup>[1](#footnote2)</sup>. LinkedIn stores massive amounts of semantically rich online professional profiles and a recruiter can quickly find a list of individuals in a given area. However, it's much harder for a recruiter to narrow down that list to professionals who would be the top matches for their open position. The issue is that candidates list their experiences and skills (if at all) not by what recruiters will search they by.
+
+<!--- add something about data science helping here --->
+
+* Techniques / suggestions
+  * Using people at company Y/Z, position X to gather required skills distribution
+  * Using correlated skills to deduce skills you also have
+* lorem
 
 <!-- ...or include images directly from the web. Cite your sources! -->
 ```{r machine-learning,echo=FALSE,fig.cap='[xkcd: Machine Learning](https://xkcd.com/1838/)',fig.align='center',out.width='50%'}
 knitr::include_graphics('https://imgs.xkcd.com/comics/machine_learning.png')
 ```
 
-Commodo mustache pinterest yr, nostrud nesciunt esse  photo booth.  Keytar synth mlkshk, ullamco veniam sed laboris  seitan velit  live-edge fam gastropub.  Ad mumblecore nihil messenger bag williamsburg occaecat.  Bushwick pickled ullamco, keytar letterpress vice chillwave cillum.  Voluptate  listicle irure  food truck coloring book shoreditch.  Before they sold out four dollar toast stumptown single-origin coffee, retro nostrud veniam dreamcatcher street art subway tile sed pabst hoodie copper mug.  Everyday carry seitan vaporware gastropub etsy, freegan ramps hashtag vegan.
-
 ## An end.
 
-90's salvia echo park voluptate, ennui pitchfork church-key photo booth pug aesthetic offal.  Jianbing lomo disrupt before they sold out umami.  Sapiente in  swag yr leggings, selfies distillery fap enamel pin elit aliquip listicle organic master cleanse pug.  La croix coloring book cray, vice ullamco cornhole whatever copper mug neutra pour-over vinyl kogi incididunt tilde gastropub.  Prism veniam VHS, sustainable ea meh viral duis.  Hell of health goth 8-bit microdosing sed keffiyeh.  Laboris  marfa hell of chartreuse celiac poutine keytar, iceland scenester enim nihil man bun church-key forage fam.
+Using data science, we can figure out the experiences and skills you need to optimize your LinkedIn profile so that recruiters will be able to find you. This will help shorten the average 1.4 years of unemployment you face in your lifetime.
+
+<!--- clearly needs a rework --->
+
+
+<a name="footnote1">1</a>: Bureau of Labor Statistics, "Frequently Asked Questions" https://www.bls.gov/nls/nlsfaqs.htm
+<a name="footnote2">2</a>: : Market Watch, "How Recruiters Screen you on LinkedIn" https://www.marketwatch.com/story/how-recruiters-screen-you-on-linkedin-2014-05-02
+
+
+
