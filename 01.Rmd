@@ -4,7 +4,7 @@
 
 LinkedIn profile, machine learning, optimze online presence
 
-## A beginning.
+## Jobseeker's Wasted Potential
 
 > Once you can introduce your idea then you need to begin to explain it. The standard convention and our formula in RDADA is to start with a description of a worthwhile problem and one that is facing a particular kind of person or organization. This is the beginning.
 
@@ -16,7 +16,7 @@ This is a equal-parts process problem and data flow/data match problem.
 
 The data flow and match problem is what we would like to focus on to solve.
 
-## A middle.
+## A Smarter Approach to Unemployment
 
 > Once we understand the problem and the urgency behind it, it is then time to describe the solution. Here is where you can unleash your data science imagination. Suggest an analytics pipeline that can turn noise into signal, information into knowledge, or raw data into a product or service. Be ambitious and do not be afraid of what you have not yet learned. It is enough to name methods and describe what they promise to accomplish. You do not need to explain how they work. This is the middle and should be the longest part of your composition.
 
@@ -29,7 +29,7 @@ Over 90% of recruiters use LinkedIn to source or vet candidates<sup>[1](#footnot
   * Using correlated skills to deduce skills you also have
 * lorem
 
-## An end.
+## The Future and Potential Pitfalls 
 
 > After your best attempt at a solution, the work is not over. All solutions are promises or proposals, and you must make good on these by describing the consequences, intended and unintended, of implementing your solution. Trumpet the accomplishments, even if only as expectations, but also be responsible for addressing the limitations. No solution will be a slam-dunk, and you need to be prepared for exposure to unintended consequences. Be measured in your discussion of outstanding issues and always end on a positive. This is your end.
 
