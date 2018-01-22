@@ -6,36 +6,37 @@ LinkedIn profile, machine learning, optimze online presence
 
 ## Jobseeker's Wasted Potential
 
-> Once you can introduce your idea then you need to begin to explain it. The standard convention and our formula in RDADA is to start with a description of a worthwhile problem and one that is facing a particular kind of person or organization. This is the beginning.
+An average person in the United States has 5.6 spells of unemployment<sup>[1](#footnote1)</sup> and each bout is roughly 3 months<sup>[1](#footnote1)</sup>. That's a total of a year and four months of unemployment in a lifetime of dealing with likely financial instability and the stresses that causes. The majority of that time spent is the time-consuming beginning to end re-employment process including job search, job application, interviews and hopefully an offer weeks or months later. 
 
-An average person in the United States has 5.6 spells of unemployment<sup>[1](#footnote1)</sup> and each bout is roughly 3 months<sup>[1](#footnote1)</sup>. That's a total of a year and four months of unemployment in a life time of dealing with likely financial instability and the stresses that causes. The majority of that time spent is the time consuming end to end job search process including job search, job application, interviews and hopefully an offer weeks or months later. 
+This time and effort spent on the job hunt drains not only the resources of the individual job seeker, but also impacts the opportunity cost of potential labor on the larger economy. Breaking down the components of job search, we can see this is a equal-parts process problem and data flow or data match problem.  The process aspect of job search has been steadily improving in the past decades, transitioning from print based job ads and resumes to online applications. However, the data match aspect of job search, has arguably, gotten worse. While previously, a recruiter can scan 30 or 50 paper resumes to find a suitable match, now we have applications in the hundreds or thousands for some job openings. Candidates take advantage of the ease through which they can one-click apply, and recruiters began to rely on software to help them sift through applications.
 
-This is a equal-parts process problem and data flow/data match problem. 
-
-<!--- add something about process problem has solutions with internet (e-apply) speeding up paper applications --->
-
-The data flow and match problem is what we would like to focus on to solve.
+This data flow and match problem is what we would like to focus on to solve.
 
 ## A Smarter Approach to Unemployment
 
-> Once we understand the problem and the urgency behind it, it is then time to describe the solution. Here is where you can unleash your data science imagination. Suggest an analytics pipeline that can turn noise into signal, information into knowledge, or raw data into a product or service. Be ambitious and do not be afraid of what you have not yet learned. It is enough to name methods and describe what they promise to accomplish. You do not need to explain how they work. This is the middle and should be the longest part of your composition.
+Over 90% of recruiters use LinkedIn to source or vet candidates<sup>[1](#footnote2)</sup>. LinkedIn stores massive amounts of semantically rich online professional profiles and a recruiter can quickly find a list of individuals in a given area. In addition, they can keep tabs on active and updated profiles of candidates with relevant experience for any potential job openings. LinkedIn also has a toggle for job seekers to let recruiters know if you are open to a new job. With this platform, we have an ideal information data bank to source and match candidates.
 
-Over 90% of recruiters use LinkedIn to source or vet candidates<sup>[1](#footnote2)</sup>. LinkedIn stores massive amounts of semantically rich online professional profiles and a recruiter can quickly find a list of individuals in a given area. However, it's much harder for a recruiter to narrow down that list to professionals who would be the top matches for their open position. The issue is that candidates list their experiences and skills (if at all) not by what recruiters will search they by.
+However, the matching algorithm in LinkedIn for any open position is far from perfect. Interviews with recruiters reveal that they use complicated boolean queries to find candidates with the right skill set. Another impactful issue is that experiences and skills from ideal candidates are often not explicitly listed or not represented by what recruiters will search they by. To mitigate these matching issues, we suggest the following:
 
-<!--- add something about data science helping here --->
+1. apply machine learning to LinkedIn profiles so that each profile is representative of that user's experiences and skills
+2. utilize the optimized semantically rich LinkedIn profile as a model for canonical matching against a job opening
 
-* Techniques / suggestions
-  * Using people at company Y/Z, position X to gather required skills distribution
-  * Using correlated skills to deduce skills you also have
-* lorem
+The first suggestion includes a few techniques for constructing an optimized online professional profile. Foremost, we should create canonical entities for each skill so that variations of a skill map to the same skill. It should have experience level as an attached entity. These canonical skills can be graphically linked to concrete measurable results. These skills would also have a rich taxonomy with semantic relationships between skills and experiences.
+
+After constructing a robust model for skills and experiences, we should try to fill in skill or experience gaps. First, we can infer missing skills by utilizing association rules within the individual profile. For example, if someone is experienced in Jquery and Angular, there's a 99% chance they also know Javascript well. Second, we can further deduce missing skills and experiences by comparing similar positions at the same company division. If many Microsoft developers knows .NET, we can infer that developer X who works at Microsoft will also. Third, we can crawl related resources from that candidate, whether it's their github repository, academic papers, online accolades, etc. to fill in more gaps. 
+
+For the second suggestion, we want to query against an optimized model to match against a job opening, which would help the recruiter and the job seeker. This process can be done in the background instead of initated by a recruiter via boolean searches. On the hiring side, a job description is posted on LinkedIn with relevant criteria set, location, position, required skills and preferred skills utilizing the same underlying skills and experience taxonomy from earlier. This would start a query that matches the most relevant candidates, which would continuously run to push up the most relevant results. From the candidates perspective, this same matching algorithm would also surface the most relevant jobs.
+
+Using this updated job matching model, we can drastically cut down the noise of mediocre or bad match candidates, and refocus the job seeker on only the best options. The close to instaneous feedback from the moment a job is posted or when a job seeker is available also will reduce time and resources currently spent on time-to-hire and time-to-reemployment.
 
 ## The Future and Potential Pitfalls 
 
-> After your best attempt at a solution, the work is not over. All solutions are promises or proposals, and you must make good on these by describing the consequences, intended and unintended, of implementing your solution. Trumpet the accomplishments, even if only as expectations, but also be responsible for addressing the limitations. No solution will be a slam-dunk, and you need to be prepared for exposure to unintended consequences. Be measured in your discussion of outstanding issues and always end on a positive. This is your end.
+Using data science, we can figure out the experiences and skills you need to optimize your LinkedIn profile so that recruiters will match you as soon as you're available to work. 
 
-Using data science, we can figure out the experiences and skills you need to optimize your LinkedIn profile so that recruiters will be able to find you. This will help shorten the average 1.4 years of unemployment you face in your lifetime.
+However, with any new technology that alter the status quo, there are consequences. First, sourcing recruiters may find their jobs replaced by an algorithm. Those recruiters may need to transition into adjacent fields, e.g. career coaches or counselors. Second, a machine may never be able to represent an individual completely and there are always outliers who may bring a spark to an organization which algorithms have a tendency to weed out. Third, folks who strongly value privacy of their data may feel violated since this would be a mandatory push to share your professional experiences online.
 
-<!--- clearly needs a rework --->
+In spite of the pitfalls, the status quo of unemployment should change. This technology will help shorten the 1.4 years of unemployment the average person face in their lifetime.  With this, we're able to be more financially stable, productive and happier working for a better-fit job.
+
 
 ## Footnotes
 
