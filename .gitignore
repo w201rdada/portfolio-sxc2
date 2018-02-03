@@ -16,6 +16,7 @@
 !_build+deploy.R
 !_feedback.sh
 !_rundock.sh
+!_book/
 !docs/
 !docs/*
 !docs/*/*
