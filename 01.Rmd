@@ -10,22 +10,22 @@ An average person in the United States has 5.6 spells of unemployment [@labor_st
 
 This time and effort spent on the job hunt drains not only the resources of the individual job seeker, but also impacts the opportunity cost of potential labor on the larger economy. Breaking down the components of job search, we can see this is a equal-parts process problem and data flow or data match problem.  The process aspect of job search has been steadily improving in the past decades, transitioning from print based job ads and resumes to online applications. However, the data match aspect of job search, has arguably, gotten worse. While previously, a recruiter can scan 30 or 50 paper resumes to find a suitable match, now we have applications in the hundreds or thousands for some job openings. Candidates take advantage of the ease through which they can one-click apply, and recruiters began to rely on software to help them sift through applications.
 
-This data flow and match problem is what we would like to focus on to solve.
+By using data science and machine learning to improve the data match problem in the job hunt for individuals, we can reduce the cost of unemployment for both the individual and overall economy.
 
 ## A Smarter Approach to Unemployment
 
 Over 90% of recruiters use LinkedIn to source or vet candidates[@fottrell_how_nodate]. LinkedIn stores massive amounts of semantically rich online professional profiles and a recruiter can quickly find a list of individuals in a given area. In addition, they can keep tabs on active and updated profiles of candidates with relevant experience for any potential job openings. LinkedIn also has a toggle for job seekers to let recruiters know if you are open to a new job. With this platform, we have an ideal information data bank to source and match candidates.
 
-However, the matching algorithm in LinkedIn for any open position is far from perfect. Interviews with recruiters reveal that they use complicated boolean queries to find candidates with the right skill set. Another impactful issue is that experiences and skills from ideal candidates are often not explicitly listed or not represented by what recruiters will search they by. To mitigate these matching issues, we suggest the following:
+However, the matching algorithm in LinkedIn for any open position is far from perfect. Interviews with recruiters@interviews_recruiters] reveal that they use complicated boolean queries to find candidates with the right skill set. Another impactful issue is that experiences and skills from ideal candidates are often not explicitly listed or not represented by what recruiters will search they by. To mitigate these matching issues, we suggest the following:
 
 1. apply machine learning to LinkedIn profiles so that each profile is representative of that user's experiences and skills
 2. utilize the optimized semantically rich LinkedIn profile as a model for canonical matching against a job opening
 
-The first suggestion includes a few techniques for constructing an optimized online professional profile. Foremost, we should create canonical entities for each skill so that variations of a skill map to the same skill. It should have experience level as an attached entity. These canonical skills can be graphically linked to concrete measurable results. These skills would also have a rich taxonomy with semantic relationships between skills and experiences.
+The first suggestion includes a few techniques for constructing an optimized online professional profile. Foremost, we should create canonical objects for each skill so that variations of a skill map to the same skill. It should have experience level as an attached entity. These skills can be graphically linked to concrete measurable results, such as 'architected _SEO linkbacks_ on XYZ platform increasing traffic by 150%'. These skills would also have a rich taxonomy with semantic relationships between skills and experiences.
 
 After constructing a robust model for skills and experiences, we should try to fill in skill or experience gaps. First, we can infer missing skills by utilizing association rules within the individual profile. For example, if someone is experienced in Jquery and Angular, there's a 99% chance they also know Javascript well. Second, we can further deduce missing skills and experiences by comparing similar positions at the same company division. If many Microsoft developers knows .NET, we can infer that developer X who works at Microsoft will also. Third, we can crawl related resources from that candidate, whether it's their github repository, academic papers, online accolades, etc. to fill in more gaps. 
 
-For the second suggestion, we want to query against an optimized model to match against a job opening, which would help the recruiter and the job seeker. This process can be done in the background instead of initiated by a recruiter via boolean searches. On the hiring side, a job description is posted on LinkedIn with relevant criteria set, location, position, required skills and preferred skills utilizing the same underlying skills and experience taxonomy from earlier. This would start a query that matches the most relevant candidates, which would continuously run to push up the most relevant results. From the candidates perspective, this same matching algorithm would also surface the most relevant jobs.
+For the second suggestion, we want to query against an optimized model to match against a job opening, which would help the recruiter and the job seeker. This process can be done in the background instead of initiated by a recruiter via boolean searches. On the hiring side, a job description is posted online with relevant criteria set, location, position, required skills and preferred skills utilizing the same underlying skills and experience taxonomy from earlier. This would kickstart a query that matches the most relevant candidates, which would continuously run to push up the most relevant results. From the candidates perspective, this same matching algorithm would also surface the most relevant jobs.
 
 Using this updated job matching model, we can drastically cut down the noise of mediocre or bad match candidates, and refocus the job seeker on only the best options. The close to instantaneous feedback from the moment a job is posted or when a job seeker is available also will reduce time and resources currently spent on time-to-hire and time-to-reemployment.
 
@@ -35,6 +35,8 @@ Using data science, we can figure out the experiences and skills you need to opt
 
 However, with any new technology that alter the status quo, there are consequences. First, sourcing recruiters may find their jobs replaced by an algorithm. Those recruiters may need to transition into adjacent fields, e.g. career coaches or counselors. Second, a machine may never be able to represent an individual completely and there are always outliers who may bring a spark to an organization which algorithms have a tendency to weed out. Third, folks who strongly value privacy of their data may feel violated since this would be a mandatory push to share your professional experiences online.
 
+On the other hand, the employed but undervalued, or underemployed market can also benefit from this technology. However, we'd like to focus on the unemployed first, which arguably has a larger social utility and greater individual happiness.
+
 In spite of the pitfalls, the status quo of unemployment should change. This technology will help shorten the 1.4 years of unemployment the average person face in their lifetime.  With this, we're able to be more financially stable, productive and happier working for a better-fit job.
 
 
@@ -43,6 +45,8 @@ In spite of the pitfalls, the status quo of unemployment should change. This tec
 <a name="footnote1">1</a>: Bureau of Labor Statistics, "Frequently Asked Questions" https://www.bls.gov/nls/nlsfaqs.htm
 
 <a name="footnote2">2</a>: Market Watch, "How Recruiters Screen you on LinkedIn" https://www.marketwatch.com/story/how-recruiters-screen-you-on-linkedin-2014-05-02
+
+<a name="footnote3">3</a>: Jobscan Internal Interviews
 
 
 
