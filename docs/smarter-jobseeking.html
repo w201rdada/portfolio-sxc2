@@ -22,7 +22,7 @@
   
   
 
-<meta name="author" content="Oski Bear">
+<meta name="author" content="Sophia Cui">
 
 
 
@@ -32,7 +32,7 @@
   
   
 <link rel="prev" href="index.html">
-<link rel="next" href="slug-two.html">
+<link rel="next" href="SmartHydro-Kelpie.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -73,10 +73,10 @@
 <li class="chapter" data-level="" data-path="smarter-jobseeking.html"><a href="smarter-jobseeking.html#the-future-and-potential-pitfalls"><i class="fa fa-check"></i>The Future and Potential Pitfalls</a></li>
 <li class="chapter" data-level="" data-path="smarter-jobseeking.html"><a href="smarter-jobseeking.html#footnotes"><i class="fa fa-check"></i>Footnotes</a></li>
 </ul></li>
-<li class="chapter" data-level="" data-path="slug-two.html"><a href="slug-two.html"><i class="fa fa-check"></i>My second cool idea</a><ul>
-<li class="chapter" data-level="" data-path="slug-two.html"><a href="slug-two.html#a-beginning."><i class="fa fa-check"></i>A beginning.</a></li>
-<li class="chapter" data-level="" data-path="slug-two.html"><a href="slug-two.html#a-middle."><i class="fa fa-check"></i>A middle.</a></li>
-<li class="chapter" data-level="" data-path="slug-two.html"><a href="slug-two.html#an-end."><i class="fa fa-check"></i>An end.</a></li>
+<li class="chapter" data-level="" data-path="SmartHydro-Kelpie.html"><a href="SmartHydro-Kelpie.html"><i class="fa fa-check"></i>Kelpie - Crowd Sourced Smart Hydroponics</a><ul>
+<li class="chapter" data-level="" data-path="SmartHydro-Kelpie.html"><a href="SmartHydro-Kelpie.html#undeniable-bond-with-mother-earth"><i class="fa fa-check"></i>Undeniable Bond with Mother Earth</a></li>
+<li class="chapter" data-level="" data-path="SmartHydro-Kelpie.html"><a href="SmartHydro-Kelpie.html#kelpie-the-bridge-and-the-guide"><i class="fa fa-check"></i>Kelpie, the Bridge and the Guide</a></li>
+<li class="chapter" data-level="" data-path="SmartHydro-Kelpie.html"><a href="SmartHydro-Kelpie.html#kelpie-and-the-future"><i class="fa fa-check"></i>Kelpie and the Future</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/oskibear" target="blank">GitHub</a></li>
@@ -109,13 +109,13 @@
 </div>
 <div id="jobseekers-wasted-potential" class="section level2">
 <h2>Jobseeker’s Wasted Potential</h2>
-<p>An average person in the United States has 5.6 spells of unemployment <span class="citation">[@labor_statistics_nls]</span> and each bout is roughly 3 months <span class="citation">[@labor_statistics_nls]</span>. That’s a total of a year and four months of unemployment in a lifetime of dealing with likely financial instability and the stresses that causes. The majority of that time spent is the time-consuming beginning to end re-employment process including job search, job application, interviews and hopefully an offer weeks or months later.</p>
+<p>An average person in the United States has 5.6 spells of unemployment <span class="citation">(<span class="citeproc-not-found" data-reference-id="labor_statistics_nls"><strong>???</strong></span>)</span> and each bout is roughly 3 months <span class="citation">(<span class="citeproc-not-found" data-reference-id="labor_statistics_nls"><strong>???</strong></span>)</span>. That’s a total of a year and four months of unemployment in a lifetime of dealing with likely financial instability and the stresses that causes. The majority of that time spent is the time-consuming beginning to end re-employment process including job search, job application, interviews and hopefully an offer weeks or months later.</p>
 <p>This time and effort spent on the job hunt drains not only the resources of the individual job seeker, but also impacts the opportunity cost of potential labor on the larger economy. Breaking down the components of job search, we can see this is a equal-parts process problem and data flow or data match problem. The process aspect of job search has been steadily improving in the past decades, transitioning from print based job ads and resumes to online applications. However, the data match aspect of job search, has arguably, gotten worse. While previously, a recruiter can scan 30 or 50 paper resumes to find a suitable match, now we have applications in the hundreds or thousands for some job openings. Candidates take advantage of the ease through which they can one-click apply, and recruiters began to rely on software to help them sift through applications. Many of these systems, known broadly as Applicant Tracking Systems, are fallible and don’t always bubble up the best candidates.</p>
 <p>By using data science and machine learning to improve the data match problem in the job hunt for individuals, we can reduce the cost of unemployment for both the individual and overall economy.</p>
 </div>
 <div id="a-smarter-approach-to-unemployment" class="section level2">
 <h2>A Smarter Approach to Unemployment</h2>
-<p>Over 90% of recruiters use LinkedIn to source or vet candidates<span class="citation">[@fottrell_how_nodate]</span>. LinkedIn stores massive amounts of semantically rich online professional profiles and a recruiter can quickly find a list of individuals in a given area. In addition, they can keep tabs on active and updated profiles of candidates with relevant experience for any potential job openings. LinkedIn also has a toggle for job seekers to let recruiters know if you are open to a new job. With this platform, we have an ideal information data bank to source and match candidates.</p>
+<p>Over 90% of recruiters use LinkedIn to source or vet candidates<span class="citation">(Fottrell <a href="#ref-fottrell_how_nodate">2018</a>)</span>. LinkedIn stores massive amounts of semantically rich online professional profiles and a recruiter can quickly find a list of individuals in a given area. In addition, they can keep tabs on active and updated profiles of candidates with relevant experience for any potential job openings. LinkedIn also has a toggle for job seekers to let recruiters know if you are open to a new job. With this platform, we have an ideal information data bank to source and match candidates.</p>
 <p>However, the matching algorithm in LinkedIn for any open position is far from perfect. Interviews with <a href="mailto:recruiters@interviews_recruiters">recruiters@interviews_recruiters</a>] reveal that they use complicated boolean queries to find candidates with the right skill set. Another impactful issue is that experiences and skills from ideal candidates are often not explicitly listed or not represented by what recruiters will search they by. To mitigate these matching issues, we suggest the following:</p>
 <ol style="list-style-type: decimal">
 <li>apply machine learning to LinkedIn profiles so that each profile is representative of that user’s experiences and skills</li>
@@ -141,13 +141,19 @@
 
 </div>
 </div>
+<h3>References</h3>
+<div id="refs" class="references">
+<div id="ref-fottrell_how_nodate">
+<p>Fottrell, Quentin. 2018. <em>How Job Recruiters Screen You on LinkedIn - MarketWatch</em>. Accessed February 3. <a href="https://www.marketwatch.com/story/how-recruiters-screen-you-on-linkedin-2014-05-02" class="uri">https://www.marketwatch.com/story/how-recruiters-screen-you-on-linkedin-2014-05-02</a>.</p>
+</div>
+</div>
             </section>
 
           </div>
         </div>
       </div>
 <a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="slug-two.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="SmartHydro-Kelpie.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
