@@ -7,7 +7,7 @@ hydroponics, machine learning, recommendation algorithms, crowd sourced, Kelpie
 
 ## Undeniable Bond with Mother Earth
 
-35% of all households in America are growing food at home or in a community garden [@national_gardening_article], up 63% in the past decade in younger households. [@national_gardening_article] Despite the flourishing enthusiasm for home gardens, many folks do not have access to a plot of land or care to keep gallons of soil in their apartment. Hydroponics, an alternative to backyard gardening, has been gaining momentum for hobbiests, but the cost and knowledge gap so far has prevented it from commonly rooting in households. 
+35% of all households in America are growing food at home or in a community garden [@noauthor_food_nodate-1], up 63% in the past decade in younger households. [@noauthor_food_nodate-1] Despite the flourishing enthusiasm for home gardens, many folks do not have access to a plot of land or care to keep gallons of soil in their apartment. Hydroponics, an alternative to backyard gardening, has been gaining momentum for hobbiests, but the cost and knowledge gap so far has prevented it from commonly rooting in households. 
 
 Given the right knowledge and tools, hydroponics could grow fuller any-season plants cheaper than traditional methods. Part of the reason is that it can be optimized to deliver the ideal blend of macro and micro nutrients given controlled environmental factors. However, the margin of error for hydroponic gardening is small, and the knowledge associated has many complex dimensions which are not well documented or available. 
 
@@ -33,4 +33,6 @@ Hydroponics has a few advantages over traditional gardening: all components are 
 Kelpie hydroponics is not a replacement for sustainable locally sourced produce nor can replace the joy of sowing seasonal crops in the backyard garden. The ability to grow gardens indoors doesn't decrease the importance of conservation of the wonders of nature outdoors. However, it is a bridge for folks who yearn for a little taste of mother earth in their living room in this increasingly vertical and space constrained world. 
 
 
-https://garden.org/learn/articles/view/3819/
+## Footnotes
+
+<a name="footnote1">1</a>: National Gardening Association, "Food Gardening in the U.S. at the Highest Levels in More Than a Decade According to New Report by the National Gardening Association" https://garden.org/learn/articles/view/3819/
