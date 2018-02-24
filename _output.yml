@@ -14,7 +14,7 @@ bookdown::gitbook:
         <li><a href="https://github.com/sxc2" target="blank">GitHub</a></li>
         <li><a href="https://www.ischool.berkeley.edu/people/sophia-cui" target="blank">UC Berkeley</a></li>
         <li><a href="https://www.linkedin.com/in/sophia-cui/" target="blank">LinkedIn</a></li>
-        <li><a href="https://www.trueachievements.com/gamer/s0phia" target="blank">Xbox</a></li>        
+        <li><a href="https://www.trueachievements.com/gamer/s0phia" target="blank" style="color:#107c10;">Xbox <i class="fa fa-gamepad fa-fw" style="color:#107c10;"></i></a></li>        
     sharing:
       facebook: no
       twitter: no

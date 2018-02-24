@@ -20,6 +20,8 @@
 !_book/*
 !_book/*/*
 !_book/*/*/*
+!img/
+!img/*
 !docs/
 !docs/*
 !docs/*/*
