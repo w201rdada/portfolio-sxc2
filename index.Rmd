@@ -19,16 +19,16 @@ readLines('https://www.zotero.org/api/users/4684249/items/top?limit=25&format=bi
 # Bienvenido! {-}
 
 
-### Smart-Optimize my LinkedIn and Get Found by Recruiters {#smarter-jobseeking}
+## Smart-Optimize my LinkedIn and Get Found by Recruiters {#smarter-jobseeking}
 
 
-### Kelpie - Crowd Sourced Smart Hydroponics {#SmartHydro-Kelpie}
+## Kelpie - Crowd Sourced Smart Hydroponics {#SmartHydro-Kelpie}
 
 
 ## About the author {-}
 
 ```{r hello-world,echo=FALSE,fig.cap='Fluffy rainbows',fig.align='center',out.width='100%'}
-knitr::include_graphics('img/sheepy.png')
+knitr::include_graphics('img/sheepy.gif')
 ```
 
 *Updated: `r Sys.Date()`*
