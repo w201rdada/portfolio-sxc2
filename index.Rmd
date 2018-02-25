@@ -19,10 +19,10 @@ readLines('https://www.zotero.org/api/users/4684249/items/top?limit=25&format=bi
 # Bienvenido! {-}
 
 
-## Smart-Optimize my LinkedIn and Get Found by Recruiters {#smarter-jobseeking}
+## Smart-Optimize my LinkedIn and Get Found by Recruiters {#abstract1}
+<!-- Had to change your cross-references here since they shouldn't be duplicated with the main article -->
 
-
-## Kelpie - Crowd Sourced Smart Hydroponics {#SmartHydro-Kelpie}
+## Kelpie - Crowd Sourced Smart Hydroponics {#abstract2}
 
 
 ## About the author {-}
