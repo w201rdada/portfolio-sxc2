@@ -1,5 +1,9 @@
 # Kelpie - Crowd Sourced Smart Hydroponics {#SmartHydro-Kelpie}
 
+#### Abstract {-}
+
+(ref:abs2)
+
 #### Keywords {-}
 
 hydroponics, machine learning, recommendation algorithms, crowd sourced, Kelpie

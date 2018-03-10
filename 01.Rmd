@@ -1,5 +1,9 @@
 # Smart-Optimize my LinkedIn and Get Found by Recruiters {#smarter-jobseeking}
 
+#### Abstract {-}
+
+(ref:abs1)
+
 #### Keywords {-}
 
 LinkedIn profile, machine learning, optimze online presence
