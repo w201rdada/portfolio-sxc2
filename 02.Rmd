@@ -1,9 +1,5 @@
 # Kelpie - Crowd Sourced Smart Hydroponics {#SmartHydro-Kelpie}
 
-#### Abstract {-}
-
-(ref:abs2)
-
 #### Keywords {-}
 
 hydroponics, machine learning, recommendation algorithms, crowd sourced, Kelpie
@@ -30,6 +26,7 @@ The Kelpie Raincloud constantly learns and optimizes new data collected from ind
 *Success Case Study*
 
 Nested in a high-rise in Downtown Seattle, John is an avid Keurig organics coffee drinker and has a 10 gallon fresh water aquarium. As an intermediate hydroponics gardner, he was able to brew his own fertilizer tea using his aquarium waste water, coffee grounds and a banana peel. Using Kelpie, he's able to sustain two Super Sweet 100 cherry tomato plants and four heads of romaine - John has a romaine and tomato salad every day for lunch. 
+
 
 ## Kelpie and the Future
 
