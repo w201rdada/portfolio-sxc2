@@ -15,26 +15,21 @@ library(magrittr)
 readLines('https://www.zotero.org/api/users/4684249/items/top?limit=25&format=bibtex&key=slAzDDCc7LkCcpCEYM7XDkM3&v=1') %>% writeLines('references.bib')
 ```
 
+# Hello! {-}
 
-# Bienvenido! {-}
-
-
-### Smart-Optimize my LinkedIn and Get Found by Recruiters {#abstract1}
-<!-- Had to change your cross-references here since they shouldn't be duplicated with the main article -->
-
+## Smart-Optimize my LinkedIn and Get Found by Recruiters {-}
 (ref:abs1) By using data science and machine learning to improve the data match problem in the job hunt for individuals, we can reduce the cost of unemployment for both the individual and overall economy.
 
 (ref:abs1)
 
-### Kelpie - Crowd Sourced Smart Hydroponics {#abstract2}
-
+## Kelpie - Crowd Sourced Smart Hydroponics {-}
 (ref:abs2) Kelpie is a smart gardening device that uses massive amounts of crowd sourced hydroponic data and data science to prescribe a curated grow process for the avid gardener without access to a backyard. 
 
 (ref:abs2)
 
-### About Sophia {-}
+## Professional Timeline {-}
 
-```{r hello-world,echo=FALSE,fig.cap='About Me',fig.align='center',out.width='100%'}
+```{r hello-world,echo=FALSE,fig.cap='Nut',fig.align='center',out.width='100%'}
 knitr::include_graphics('https://user-images.githubusercontent.com/880015/37258586-523369a2-2537-11e8-9952-fa05cc3316de.png')
 ```
 
